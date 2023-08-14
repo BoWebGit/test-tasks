@@ -1,0 +1,65 @@
+.calculator {
+    background-color: rgb(41, 41, 41);
+    max-width:  300px;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.calculator .input {
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 10px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.calculator button {
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calculator button:hover{
+    background-color: rgb(235, 183, 11) !important;
+}
+
+.calculator .controls {
+    display: flex;
+    gap: 8px;
+}
+
+.calculator .controls button {
+    background-color: rgb(165, 165, 165);
+    width: 50%;
+}
+
+.calculator .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.calculator .buttons .row {
+    display: flex;
+    gap: 8px;
+}
+
+.calculator .buttons button {
+    width: 25%;
+}
+
+.calculator .buttons button.btn_operator {
+    background-color: rgb(165, 165, 165);
+}
+
+.calculator .buttons button.btn_zero {
+    width: calc(50% + 8px);
+}
+
